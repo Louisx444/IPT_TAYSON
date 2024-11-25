@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    overflow-x: hidden;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  header .logo h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff0077;
+  }
+  
+  .search input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+  }
+  
+  .hero .content h2 {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero .content p {
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 20px;
+    max-width: 400px;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff0077;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #d60065;
+  }
+  
+  .hand-image {
+    max-width: 50%;
+  }
+  
+  .hand-image img {
+    width: 100%;
+    filter: brightness(1.2);
+    opacity: 0.9;
+  }
+  
