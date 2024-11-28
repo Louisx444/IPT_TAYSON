@@ -1,0 +1,105 @@
+neral Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+header .logo h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff0077;
+}
+
+.search input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+/* Add to your style.css */
+
+/* General Styling for Work Section */
+.work-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .work-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-card h3 {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+  }
+  
